@@ -10,5 +10,5 @@ window.onscroll = function () {
         Header.style.display = "block";
         ina.style.top = 0;
         ina.style.display = "block";
-    }
-};
+    };
+}

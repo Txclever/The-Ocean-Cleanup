@@ -29,7 +29,7 @@ body {
     left: 0;
     width: 100%;
     height: 75px;
-    transition: all 0.1s linear;
+    transition: all 0.095s linear;
     overflow: hidden;
 }
 
@@ -50,22 +50,21 @@ body {
     width: 700px;
     height: 75px;
     overflow: hidden;
+    float: left;
 }
 
-#header ul li {
+#header .center-ul li {
     float: left;
     line-height: 80px;
     font-size: 19px;
     cursor: pointer;
 }
 
-#header ul li a:hover {
+#header .center-ul li:hover a {
     border-bottom: 2px solid #000;
-    /* transition: all 0.1s linear;
-    transform: scale(1.6,1.6); */
 }
 
-#header ul li a {
+#header .center-ul li a {
     color: #000;
 }
 
@@ -114,6 +113,170 @@ body {
     height: 58px;
     border-bottom: 2px solid #000;
 }
+
+#header .right-word {
+    width: 500px;
+    height: 100%;
+    float: right;
+}
+
+
+#header .right-ul li {
+    float: left;
+}
+
+#header .right-ul .rwone {
+    display: inline-block;
+    width: 65px;
+    height: 75px;
+    margin-left: 70px;
+}
+
+#header .right-ul .rwone span {
+    /* margin-left: 10px; */
+    color: #000;
+    font-size: 13px;
+    line-height: 75px;
+
+}
+
+#header .right-ul .rwone .rwone-a {
+    display: inline-block;
+    width: 58px;
+    height: 58px;
+    /* background-color: #000; */
+}
+
+#header .right-ul .rwone .rwone-a:hover {
+    border-bottom: 2px solid #000;
+}
+
+#header .right-ul .rwtwo {
+    width: 83px;
+    height: 75px;
+    /* background-color: rgb(221, 89, 89); */
+}
+
+#header .right-ul .rwtwo span {
+    color: #000;
+    font-size: 13px;
+    line-height: 75px;
+    margin-left: 15px;
+    cursor: default;
+    float: left;
+}
+
+#header .right-ul .rwtwo:hover {
+    background-color: #003755;
+}
+
+#header .right-ul .rwtwo:hover span,
+#header .right-ul .rwtwo:hover path {
+    fill: rgba(255, 255, 255, 0.555);
+    color: #fff;
+}
+
+#header .right-ul .rwtwo .icon1 {
+    float: left;
+    margin-top: 28px;
+    display: block;
+}
+
+#header .right-ul .rwtwo:hover .icon1 {
+    display: none;
+}
+
+#header .right-ul .rwtwo .icon2 {
+    margin-top: 29px;
+    display: none;
+}
+
+#header .right-ul .rwtwo:hover .icon2 {
+    display: block;
+}
+
+#header .rwfour {
+    width: 130px;
+    height: 75px;
+    /* background-color: #000; */
+}
+
+#header .rwfour .SUPPORT {
+    /* display: inline-block; */
+    width: 127px;
+    height: 40px;
+    background-color: #003755;
+    font-size: 12px;
+    color: #fff;
+    line-height: 40px;
+    float: left;
+    cursor: default;
+    margin-top: 16.5px;
+    margin-left: 3px;
+    overflow: hidden;
+}
+
+#header .rwfour .SUPPORT span {
+    margin-left: 13px;
+}
+
+#header .rwfour .icon3 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: block;
+}
+
+#header .rwfour .icon3 path {
+    fill: #fff;
+}
+
+#header .rwfour .icon4 {
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: none;
+}
+
+#header .rwfour:hover {
+    background-color: #003755;
+}
+
+#header .rwfour:hover .icon3 {
+    display: none;
+}
+
+#header .rwfour:hover .icon4 {
+    display: block;
+}
+
+#header .rwfour:hover .icon4 path {
+    fill: #fff;
+}
+
+#header .search-logo {
+    display: inline-block;
+    width: 69px;
+    height: 100%;
+    /* background-color: #000; */
+}
+
+#header .search-logo .icon5 {
+    width: 20px;
+    height: 20px;
+    margin-left: 25px;
+    margin-top: 28px;
+}
+
+#header .search-logo:hover .icon5 path {
+    fill: #01cbe1;
+}
+
+#header .search-logo .icon5 path {
+    fill: #003755;
+}
+
+
 
 #main {
     width: 100%;

@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* @media all and (min-width : 500px) and (max-width:1000px){
+
+} */
+body {
+    height: 6388.58px;
+}
+
+#header {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+    transition: all 0.05s linear;
+}
+
+#inside-animation {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75px;
+    transition: all 0.1s linear;
+    overflow: hidden;
+}
+
+.left-logo {
+    width: 279px;
+    height: 75px;
+    background-color: #01cbe1;
+    float: left;
+}
+
+.ll {
+    width: 64%;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+#header .center-word {
+    width: 700px;
+    height: 75px;
+    overflow: hidden;
+}
+
+#header ul li {
+    float: left;
+    line-height: 80px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+#header ul li a:hover {
+    border-bottom: 2px solid #000;
+    /* transition: all 0.1s linear;
+    transform: scale(1.6,1.6); */
+}
+
+#header ul li a {
+    color: #000;
+}
+
+#header .cwone {
+    width: 110.23px;
+    height: 75px;
+    margin-left: 45px;
+}
+
+#header .cwtwo {
+    width: 97.23px;
+    height: 100%;
+}
+
+#header .cwthree {
+    width: 135.56px;
+    height: 100%;
+}
+
+#header .cwfour {
+    width: 118.47px;
+    height: 100%;
+}
+
+#header .cwone-a {
+    display: inline-block;
+    width: 80px;
+    height: 58px;
+}
+
+#header .cwtwo-a {
+    display: inline-block;
+    width: 65px;
+    height: 58px;
+}
+
+#header .cwthree-a {
+    display: inline-block;
+    width: 103px;
+    height: 58px;
+}
+
+#header .cwfour-a {
+    display: inline-block;
+    width: 87px;
+    height: 58px;
+    border-bottom: 2px solid #000;
+}
+
+#main {
+    width: 100%;
+    height: 5595.19px;
+    background-color: #f2f5f6;
+}

@@ -652,7 +652,7 @@ body {
 
 #main .journal {
   width: 100%;
-  height: 816px;
+  height: 816.5px;
   background-color: #01283c;
   margin-top: 13px;
 }
@@ -862,11 +862,6 @@ body {
   opacity: 0.9;
 }
 
-#main .section-content-one p {
-  color: #000;
-  font-size: 20px;
-}
-
 #main .card-header {
   width: 100%;
   height: 46px;
@@ -902,7 +897,7 @@ body {
   margin: 0 auto;
 }
 
-#main .card-background-color{
+#main .card-background-color {
   width: 248px;
   height: 141px;
   background-color: #003755;
@@ -910,12 +905,12 @@ body {
   opacity: 0.9;
 }
 
-#main .card-media-word{
+#main .card-media-word {
   width: 248px;
   height: 141px;
 }
 
-#main .card-media-word-top{
+#main .card-media-word-top {
   display: inline-block;
   width: 210px;
   height: 45px;
@@ -926,11 +921,11 @@ body {
   color: #fff;
 }
 
-#main .span-t{
+#main .span-t {
   text-decoration: underline;
 }
 
-#main .card-media-word-bottom{
+#main .card-media-word-bottom {
   display: inline-block;
   width: 210px;
   height: 36px;
@@ -959,8 +954,34 @@ body {
   background-image: url('../img/card-4.jpg');
 }
 
-#main .card-media-word{
+#main .card-media-word {
   width: 248px;
   height: 141px;
   margin: 0 auto;
+}
+
+#main .card-content {
+  padding: 15px;
+  color: #003755;
+  line-height: 23.5px;
+}
+
+#main .card-footer {
+  padding: 14px;
+  border-top: solid 1px #eaeaea;
+}
+
+#main .icon13,
+#main .card-footer-word{
+  float: left;
+}
+
+#main .card-footer-word {
+  color: #003755;
+  text-decoration: underline;
+  margin-left: 13px;
+}
+
+#main .text-decoration-none:hover .card-footer-word{
+  text-decoration: none;
 }

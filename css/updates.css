@@ -706,7 +706,7 @@ body {
   float: left;
 }
 
-#main .five-logo {
+.five-logo {
   width: 230px;
   height: 46px;
   float: left;
@@ -714,7 +714,7 @@ body {
   margin-left: 16px;
 }
 
-#main .five-logo ul li {
+.five-logo ul li {
   width: 40px;
   height: 40px;
   border-radius: 40px;
@@ -723,34 +723,34 @@ body {
   background-color: #fff;
 }
 
-#main .five-logo ul li a {
+.five-logo ul li a {
   display: inline-block;
   width: 40px;
   height: 40px;
   border-radius: 40px;
 }
 
-#main .five-logo ul li a:hover {
+.five-logo ul li a:hover {
   background-color: rgba(0, 55, 85, 0.2);
 }
 
-#main .five-logo ul li a .icon7 {
+.five-logo ul li a .icon7 {
   margin-left: 6px;
   margin-top: 5px;
 }
 
-#main .five-logo ul li a .icon8,
-#main .five-logo ul li a .icon10 {
+.five-logo ul li a .icon8,
+.five-logo ul li a .icon10 {
   margin-left: 8px;
   margin-top: 8px;
 }
 
-#main .five-logo ul li a .icon9 {
+.five-logo ul li a .icon9 {
   margin-left: 7px;
   margin-top: 7px;
 }
 
-#main .five-logo ul li a .icon11 {
+.five-logo ul li a .icon11 {
   margin-left: 8px;
   margin-top: 5px;
 }
@@ -1194,7 +1194,6 @@ body {
   justify-content: center;
   text-align: center;
   line-height: 38px;
-  /* margin-left: 15px; */
 }
 
 #main .pagination ul .pagination-li-all {
@@ -1205,11 +1204,11 @@ body {
   font-size: 18px;
 }
 
-#main .pagination ul .pagination-li-all:nth-child(8){
+#main .pagination ul .pagination-li-all:nth-child(8) {
   line-height: 45px;
 }
 
-#main .pagination ul .pagination-li-all:nth-child(8):hover .icon14{
+#main .pagination ul .pagination-li-all:nth-child(8):hover .icon14 {
   margin-left: 8px;
   transition: all 0.2s linear;
 }
@@ -1218,11 +1217,11 @@ body {
   background-color: #01cbe1;
 }
 
-#main .pagination ul .pagination-li:nth-child(1) span{
+#main .pagination ul .pagination-li:nth-child(1) span {
   color: #fff;
 }
 
-#main .pagination ul .pagination-li-all .pagination-a{
+#main .pagination ul .pagination-li-all .pagination-a {
   display: inline-block;
   width: 36px;
   height: 36px;
@@ -1231,12 +1230,12 @@ body {
   font-weight: bold;
 }
 
-#main .pagination ul .pagination-li-all .pagination-a:hover{
+#main .pagination ul .pagination-li-all .pagination-a:hover {
   background-color: #003755;
   color: #fff;
 }
 
-#main .pagination ul .pagination-li-all:hover{
+#main .pagination ul .pagination-li-all:hover {
   display: block;
 }
 
@@ -1246,3 +1245,142 @@ body {
   height: 718px;
   background-color: #003755;
 }
+
+#footer .site-footer-top {
+  width: 100%;
+  height: 169px;
+  color: #fff;
+}
+
+#footer .site-footer-top .site-footer-top-center {
+  width: 1180px;
+  height: 169px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+
+}
+
+#footer .site-footer-left,
+#footer .site-footer-right {
+  width: 541px;
+  height: 110px;
+}
+
+#footer .site-footer-top-center p {
+  font-size: 27px;
+  margin-left: 39px;
+  text-transform: uppercase;
+}
+
+#footer .site-footer-logo {
+  margin-top: 29px;
+  width: 300px;
+}
+
+#footer .instagram {
+  margin-left: 23px;
+}
+
+#footer .Search-bar form input {
+  background-color: #003755;
+  border: solid 2px #fff;
+  color: #f8f8f89a;
+  padding: 10px 105px 10px 13px;
+  margin-top: 28px;
+  margin-left: 40px;
+  font-size: 15px;
+  letter-spacing: 0.5px;
+  float: left;
+}
+
+#footer .search-button {
+  float: left;
+  width: 40px;
+  height: 41px;
+  margin-top: 28px;
+  background-color: #fff;
+  border: none;
+}
+
+#footer .search-button a {
+  display: inline-block;
+  width: 40px;
+  height: 41px;
+
+}
+
+#footer .search-button a svg {
+  margin-top: 10px;
+  margin-left: -2px;
+}
+
+#footer .search-button-filer {
+  width: 41.5px;
+  height: 41px;
+  background-color: #003755;
+  opacity: 0.2;
+  position: relative;
+  top: -33px;
+  left: -1.5px;
+  display: none;
+}
+
+#footer .search-button a:hover .search-button-filer {
+  display: block;
+}
+
+#footer .site-footer-bottom {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+}
+
+#footer .site-footer-bottom .site-footer-bottom-center {
+  width: 1180px;
+  height: 359px;
+  margin-top: 60px;
+  display: flex;
+}
+
+#footer .site-footer-list {
+  width: 275px;
+  height: 359px;
+  color: #fff;
+}
+
+#footer .site-footer-list h3 {
+  font-weight: 600;
+  line-height: 25px;
+  font-size: 18px;
+}
+
+#footer .site-footer-list:nth-child(1) {
+  margin-left: 40px;
+}
+
+#footer .site-footer-list ul li a {
+  display: inline-block;
+  color: #fff;
+  padding: 7px 7px 7px 0;
+  font-size: 18px;
+}
+
+#footer .site-footer-list ul li .site-footer-list-a1 {
+  margin-top: 25px;
+}
+
+#footer .site-footer-list a span:hover {
+  text-decoration: underline;
+}
+
+#footer .footer-text {
+  width: 1100px;
+  height: 70px;
+  margin: 0 auto;
+  line-height: 20px;
+  color: #eaeaea8f;
+  font-size: 14px;
+}
+
